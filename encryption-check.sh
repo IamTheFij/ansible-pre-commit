@@ -10,7 +10,7 @@ for file in $@ ; do
     }
 done
 
-if [ $has_error ] ; then
+if [ $has_error -eq 1 ] ; then
     echo "To ignore, use --no-verify"
 fi
 

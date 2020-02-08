@@ -2,5 +2,5 @@
   name: Ansible Vault Encryption Check
   description: Checks that vault files are encrypted
   entry: encryption-check.sh
-  files: ((^|/)vault|vault\.ya?ml$|\.vault$)
+  files: ((?:^|\/)vault|vault\.ya?ml$|\.vault$)
   language: script
